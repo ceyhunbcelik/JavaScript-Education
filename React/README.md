@@ -94,6 +94,7 @@ we can put a variable in html and even put html value in variable and after than
 | 7      | propTypes isRequired      |
 | 8      | propTypes oneOfType       |
 | 9      | oneOfType isRequired      |
+| 10     | propTypes Shape           |
 
 #### 1. How to Use Props
 If you want to manage value in html tags. Props is good choice. You can put a value in imported component and use in that component.
@@ -129,4 +130,8 @@ we can allow multiple variable type(string, number) bu "oneOfType"
 
 #### 9. oneOfType isRequired
 we can make necessary the "oneOfType" defined value
+**Commit:** [Click]()
+
+#### 10. propTypes Shape
+put some rules fetched values of object. Need to import "prop-types"
 **Commit:** [Click]()
