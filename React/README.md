@@ -77,4 +77,4 @@ jsx have some rules. For example, using "className" instead of "class" and using
 
 #### 4. Use Variable in Component
 we can put a variable in html and even put html value in variable and after than put that variable in html.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/4d575e3a8d1c3dc7b1d95667c45b99636624a8ae)
