@@ -98,5 +98,5 @@ I did same thing by array but it was not dynamic caus i put index in array.
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/ea7dde297d5d44a1fdae30fe824a69f598ba79e2)
 
 #### 3. How to Use Props - 3
--
+It's not a good option to put index in array if you have thousands value in array to print. So i used loop and change position of array.
 **Commit:** [Click]()
