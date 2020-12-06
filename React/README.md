@@ -86,7 +86,12 @@ we can put a variable in html and even put html value in variable and after than
 | Number | Subject                   |
 | ---    | ---                       |
 | 1      | How to Use Props          |
+| 1      | How to Use Props - 2      |
 
 #### 1. How to Use Props
 If you want to manage value in html tags. Props is good choice. You can put a value in imported component and use in that component.
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/21c704e6ef51878c1cb3f3457a1c14f0b0dcb38c)
+
+#### 2. How to Use Props - 2
+I did same thing by array but it was not dynamic caus i put index in array.
+**Commit:** [Click]()
