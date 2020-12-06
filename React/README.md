@@ -67,4 +67,5 @@ And now, we can join in react universe. I just gonna say how to setup "react js"
 ##### `npx create-react-app project_name`
 
 #### 2. Create and Use Component
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/739a2789940da536aa604dff9b642e4724cb26e9)
+
