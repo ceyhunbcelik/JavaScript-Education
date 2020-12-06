@@ -1,8 +1,9 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import NewsItem from './NewsItem';
 
 class News extends React.Component{
+
     render() {
 
       const element = this.props.news.map(news =>
@@ -15,11 +16,16 @@ class News extends React.Component{
 
       return (
         <div>
+          { this.props.name }
           { element }
-
         </div>
       )
     };
 }
+
+News.propTypes = {
+  news: PropTypes.array,
+  name: PropTypes.string
+};
 
 export default News;

@@ -113,5 +113,5 @@ React getting error if not use a key value. That's why used unique value in key 
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/f5d4c4825fd556d8c2e63ec3f33343e138df1100)
 
 #### 6. propTypes
--
+sometimes we need to put some rules for fetched values. For example, name value should be string right? put if user send a number value, what we should do? propTypes making help in this situation.
 **Commit:** [Click]()
