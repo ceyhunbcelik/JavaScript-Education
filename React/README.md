@@ -1,5 +1,3 @@
-# React
-
 # Contents
 
 | Number | Subject                       |
