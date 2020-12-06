@@ -25,7 +25,11 @@ class News extends React.Component{
 
 News.propTypes = {
   news: PropTypes.array,
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
+  user: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string
+  ]).isRequired
 };
 
 export default News;

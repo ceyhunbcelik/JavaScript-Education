@@ -27,7 +27,8 @@ class App extends React.Component{
       <div>
         <News
           news={news}
-          name="Ceyhun" 
+          name="Ceyhun"
+          user="cvc"
         />
       </div>
     );
