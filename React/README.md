@@ -90,6 +90,7 @@ we can put a variable in html and even put html value in variable and after than
 | 3      | How to Use Props - 3      |
 | 4      | How to Use Props - 4      |
 | 5      | Using Key in Loops        |
+| 6      | propTypes                 |
 
 #### 1. How to Use Props
 If you want to manage value in html tags. Props is good choice. You can put a value in imported component and use in that component.
@@ -105,8 +106,12 @@ It's not a good option to put index in array if you have thousands value in arra
 
 #### 4. How to Use Props - 4
 made same things but put everything in variable as value after then use in "return".
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/983f6486d7354fb4a98a0d618c42122bc4343ee6)
 
 #### 5. Using Key in Loops
 React getting error if not use a key value. That's why used unique value in key property to fix it.
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/f5d4c4825fd556d8c2e63ec3f33343e138df1100)
+
+#### 6. propTypes
+-
 **Commit:** [Click]()
