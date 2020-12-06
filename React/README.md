@@ -41,3 +41,6 @@ npm i --save babel-cli babel-preset-es2015 babel-preset-stage-2
 
 #### 2. Create Module
 if we want to use module, have to export so first of all we need to put export keyword, put a variable type after, put a name of function.
+
+#### 3. Default Module
+possible to make default any module and even make default nameless module.
