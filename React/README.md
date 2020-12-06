@@ -29,12 +29,13 @@ This is so important if you make website only NodeJS. Using to merge a object. D
 
 ### 2. ECMAScript6 Module System
 
-| Number | Subject         |
-| ---    | ---             |
-| 1      | Babel Setup     |
-| 2      | Create Module   |
-| 3      | Default Module  |
-| 4      | As Keyword      |
+| Number | Subject                  |
+| ---    | ---                      |
+| 1      | Babel Setup              |
+| 2      | Create Module            |
+| 3      | Default Module           |
+| 4      | As Keyword               |
+| 5      | Export Multiple Function |
 
 #### 1. Babel Setup
 Some ec6 keywords not working in node.js. So we need to setup babel to convert ec6 to ec5 by this command:
@@ -49,3 +50,6 @@ possible to make default any module and even make default nameless module.
 
 #### 4. As Keyword
 we can change name of exported function name by "as" keyword
+
+#### 5. Export Multiple Function
+Sometimes we have to export hundreds module. That's why, we can export all of them by '*' character and define a value by "as" keyword before using.
