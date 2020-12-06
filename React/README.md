@@ -6,6 +6,7 @@
 | 2      | ECMAScript6 Module System     |
 | 3      | Components                    |
 | 4      | Props                         |
+| 5      | Events                        |
 
 
 ### 1. ECMAScript6 Need to know
@@ -120,28 +121,36 @@ React getting error if not use a key value. That's why used unique value in key 
 
 #### 6. propTypes
 sometimes we need to put some rules for fetched values. For example, name value should be string right? put if user send a number value, what we should do? propTypes making help in this situation.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/a6d6b38b0ff611a97005b87af26354c6828cd1b7)
 
 #### 7. propTypes isRequired
 "isRequired" gonna tell us "that value is necessary"
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/6c786c1697e783f394acd3def3dfa7f548dd6cf3)
 
 #### 8. propTypes oneOfType
 we can allow multiple variable type(string, number) bu "oneOfType"
-**Commit:** [Click]()
 
 #### 9. oneOfType isRequired
 we can make necessary the "oneOfType" defined value
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/cb43cc7d5e66bd6ad9bc5b881b470c73157b4792)
 
 #### 10. propTypes Shape
 put some rules fetched values of object. Need to import "prop-types"
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/914ec22666f57c19c057deef9eba48b72a1a611a)
 
 #### 11. defaultProps
 can put default value if selected prop not fetch any value
-**Commit:** [Click]()
 
 #### 12. Constructor
 Constructor is first running method in class. You can do what is necessary inside of this method while page run first time.
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/49bab37b521ab8c15b5dbb988d55f3d4a2a764cc)
+
+### 5. Events
+
+| Number | Subject                            |
+| ---    | ---                                |
+| 1      | Create Event and make Context Bind |
+
+#### 1. Create Event and make Context Bind
+-
 **Commit:** [Click]()
