@@ -72,3 +72,4 @@ And now, we can join in react universe. I just gonna say how to setup "react js"
 
 #### 3. Special Defined Keywords
 jsx have some rules. For example, using "className" instead of "class" and using "htmlFor" instead of "for". I made clear App.js and config paths. After than, i used "className" keyword.
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/d46c37e5b84f64bdb4346462be8360d2e2f779bd)
