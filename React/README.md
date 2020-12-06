@@ -40,7 +40,7 @@ This is so important if you make website only NodeJS. Using to merge a object. D
 #### 1. Babel Setup
 Some ec6 keywords not working in node.js. So we need to setup babel to convert ec6 to ec5 by this command:
 
-npm i --save babel-cli babel-preset-es2015 babel-preset-stage-2
+##### `npm i --save babel-cli babel-preset-es2015 babel-preset-stage-2`
 
 #### 2. Create Module
 if we want to use module, have to export so first of all we need to put export keyword, put a variable type after, put a name of function.
@@ -53,3 +53,18 @@ we can change name of exported function name by "as" keyword
 
 #### 5. Export Multiple Function
 Sometimes we have to export hundreds module. That's why, we can export all of them by '*' character and define a value by "as" keyword before using.
+
+### 3. Components
+
+| Number | Subject                  |
+| ---    | ---                      |
+| 1      | create-react-app         |
+| 2      | Create and Use Component |
+
+#### 1. create-react-app
+And now, we can join in react universe. I just gonna say how to setup "react js" project. Normally, some people installing "react js" in his computer. But we will use only 1 command and made setup.
+
+##### `npx create-react-app project_name`
+
+#### 2. Create and Use Component
+-
