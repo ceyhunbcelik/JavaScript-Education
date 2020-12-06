@@ -4,16 +4,17 @@ import NewsItem from './NewsItem';
 
 class News extends React.Component{
     render() {
+
+      const element = this.props.news.map(news =>
+        <NewsItem
+          title={news.title}
+          description={news.description}
+        />
+      );
+
       return (
         <div>
-          {
-            this.props.news.map(news =>
-                <NewsItem
-                  title={news.title}
-                  description={news.description}
-                />
-              )
-          }
+          { element }
 
         </div>
       )

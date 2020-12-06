@@ -103,5 +103,5 @@ It's not a good option to put index in array if you have thousands value in arra
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/336176eda3a958f80b0bc4663d80a8b930d93898)
 
 #### 4. How to Use Props - 4
--
+made same things but put everything in variable as value after then use in "return".
 **Commit:** [Click]()
