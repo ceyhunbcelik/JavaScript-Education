@@ -14,3 +14,7 @@ import total_ceyhun, { extraction } from './3.default-module-2';
 console.log(total_ceyhun(26, 4)); // 30
 */
 
+/* as keyword
+import {total as add} from './4.as-keyword.js';
+console.log(add(2, 7)); // 9
+*/

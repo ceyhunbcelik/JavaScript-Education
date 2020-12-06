@@ -33,6 +33,8 @@ This is so important if you make website only NodeJS. Using to merge a object. D
 | ---    | ---             |
 | 1      | Babel Setup     |
 | 2      | Create Module   |
+| 3      | Default Module  |
+| 4      | As Keyword      |
 
 #### 1. Babel Setup
 Some ec6 keywords not working in node.js. So we need to setup babel to convert ec6 to ec5 by this command:
@@ -44,3 +46,6 @@ if we want to use module, have to export so first of all we need to put export k
 
 #### 3. Default Module
 possible to make default any module and even make default nameless module.
+
+#### 4. As Keyword
+we can change name of exported function name by "as" keyword
