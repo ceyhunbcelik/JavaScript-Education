@@ -25,7 +25,7 @@ class News extends React.Component{
 
 News.propTypes = {
   news: PropTypes.array,
-  name: PropTypes.string
+  name: PropTypes.string.isRequired
 };
 
 export default News;

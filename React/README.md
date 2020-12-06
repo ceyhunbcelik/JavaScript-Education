@@ -91,6 +91,7 @@ we can put a variable in html and even put html value in variable and after than
 | 4      | How to Use Props - 4      |
 | 5      | Using Key in Loops        |
 | 6      | propTypes                 |
+| 7      | propTypes isRequired      |
 
 #### 1. How to Use Props
 If you want to manage value in html tags. Props is good choice. You can put a value in imported component and use in that component.
@@ -114,4 +115,8 @@ React getting error if not use a key value. That's why used unique value in key 
 
 #### 6. propTypes
 sometimes we need to put some rules for fetched values. For example, name value should be string right? put if user send a number value, what we should do? propTypes making help in this situation.
+**Commit:** [Click]()
+
+#### 7. propTypes isRequired
+"isRequired" gonna tell us "that value is necessary"
 **Commit:** [Click]()
