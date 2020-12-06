@@ -4,6 +4,11 @@ import '../css/NewsItem.css';
 
 class NewsItem extends React.Component{
 
+  constructor(props){
+    super();
+    console.log(props);
+  }
+
     static propTypes = {
       newsData: PropTypes.shape({
         title: PropTypes.string.isRequired,

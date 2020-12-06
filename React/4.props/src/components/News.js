@@ -4,6 +4,10 @@ import NewsItem from './NewsItem';
 
 class News extends React.Component{
 
+  static defaultProps = {
+    name: "BAHADIR"
+  };
+
     render() {
 
       const element = this.props.news.map(news =>

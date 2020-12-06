@@ -95,6 +95,8 @@ we can put a variable in html and even put html value in variable and after than
 | 8      | propTypes oneOfType       |
 | 9      | oneOfType isRequired      |
 | 10     | propTypes Shape           |
+| 11     | defaultProps              |
+| 12     | Constructor               |
 
 #### 1. How to Use Props
 If you want to manage value in html tags. Props is good choice. You can put a value in imported component and use in that component.
@@ -134,4 +136,12 @@ we can make necessary the "oneOfType" defined value
 
 #### 10. propTypes Shape
 put some rules fetched values of object. Need to import "prop-types"
+**Commit:** [Click]()
+
+#### 11. defaultProps
+can put default value if selected prop not fetch any value
+**Commit:** [Click]()
+
+#### 12. Constructor
+Constructor is first running method in class. You can do what is necessary inside of this method while page run first time.
 **Commit:** [Click]()
