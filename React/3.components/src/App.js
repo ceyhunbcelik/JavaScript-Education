@@ -1,14 +1,12 @@
 import React from 'react';
 
-import NewsItem from './NewsItem';
+import News from './components/News';
 
 class App extends React.Component{
   render() {
     return (
       <div>
-        <NewsItem />
-        <NewsItem />
-        <NewsItem />
+        <News />
       </div>
     );
   };

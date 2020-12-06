@@ -60,6 +60,7 @@ Sometimes we have to export hundreds module. That's why, we can export all of th
 | ---    | ---                      |
 | 1      | create-react-app         |
 | 2      | Create and Use Component |
+| 3      | Special Defined Keywords |
 
 #### 1. create-react-app
 And now, we can join in react universe. I just gonna say how to setup "react js" project. Normally, some people installing "react js" in his computer. But we will use only 1 command and made setup.
@@ -69,3 +70,5 @@ And now, we can join in react universe. I just gonna say how to setup "react js"
 #### 2. Create and Use Component
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/739a2789940da536aa604dff9b642e4724cb26e9)
 
+#### 3. Special Defined Keywords
+jsx have some rules. For example, using "className" instead of "class" and using "htmlFor" instead of "for". I made clear App.js and config paths. After than, i used "className" keyword.
