@@ -56,11 +56,12 @@ Sometimes we have to export hundreds module. That's why, we can export all of th
 
 ### 3. Components
 
-| Number | Subject                  |
-| ---    | ---                      |
-| 1      | create-react-app         |
-| 2      | Create and Use Component |
-| 3      | Special Defined Keywords |
+| Number | Subject                   |
+| ---    | ---                       |
+| 1      | create-react-app          |
+| 2      | Create and Use Component  |
+| 3      | Special Defined Keywords  |
+| 4      | Use Variable in Component |
 
 #### 1. create-react-app
 And now, we can join in react universe. I just gonna say how to setup "react js" project. Normally, some people installing "react js" in his computer. But we will use only 1 command and made setup.
@@ -73,3 +74,7 @@ And now, we can join in react universe. I just gonna say how to setup "react js"
 #### 3. Special Defined Keywords
 jsx have some rules. For example, using "className" instead of "class" and using "htmlFor" instead of "for". I made clear App.js and config paths. After than, i used "className" keyword.
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/d46c37e5b84f64bdb4346462be8360d2e2f779bd)
+
+#### 4. Use Variable in Component
+we can put a variable in html and even put html value in variable and after than put that variable in html.
+**Commit:** [Click]()
