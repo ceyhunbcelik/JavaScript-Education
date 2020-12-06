@@ -4,6 +4,8 @@
 | ---    | ---                           |
 | 1      | ECMAScript6 Need to know      |
 | 2      | ECMAScript6 Module System     |
+| 3      | Components                    |
+| 4      | Props                         |
 
 
 ### 1. ECMAScript6 Need to know
@@ -78,3 +80,13 @@ jsx have some rules. For example, using "className" instead of "class" and using
 #### 4. Use Variable in Component
 we can put a variable in html and even put html value in variable and after than put that variable in html.
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/4d575e3a8d1c3dc7b1d95667c45b99636624a8ae)
+
+### 4. Props
+
+| Number | Subject                   |
+| ---    | ---                       |
+| 1      | How to Use Props          |
+
+#### 1. How to Use Props
+If you want to manage value in html tags. Props is good choice. You can put a value in imported component and use in that component.
+**Commit:** [Click]()
