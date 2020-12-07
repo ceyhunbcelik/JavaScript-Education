@@ -41,7 +41,7 @@ class List extends React.Component{
               onChange={this.onChangeFilterText}
               name={'filter'}
               id={'filter'}
-              placeholder={'Name or Phone..'}
+              placeholder={'Name..'}
             />
 
             <ul className={'list'}>

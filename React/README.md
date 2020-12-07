@@ -204,6 +204,7 @@ If you don't need any state and you will not change anything. Use stateless!
 | 5      | Type "Form" State                        |
 | 6      | "addContact" Method                      |
 | 7      | Type "filter" Function                   |
+| 8      | Stateless "Contacts" Component           |
 
 #### 1. Prepare "Contacts" and "List" Components
 I will make phone directory. So, i prepared template of list and wrote some css codes. It's not about "React", just want to see something understandable :)
@@ -231,3 +232,7 @@ My "contacts" array is in App.js so, i have to make "addContant" function in tha
 
 #### 7. Type "filter" Function
 **Commit:** [Click]()
+
+#### 8. Stateless "Contacts" Component
+**Commit:** [Click]()
+
