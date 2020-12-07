@@ -201,6 +201,7 @@ If you don't need any state and you will not change anything. Use stateless!
 | 2      | Prepare "Form" Component                 |
 | 3      | Prepare "Contacts" State                 |
 | 4      | Change "Contacts" State Position         |
+| 5      | Type "Form" State                        |
 
 #### 1. Prepare "Contacts" and "List" Components
 I will make phone directory. So, i prepared template of list and wrote some css codes. It's not about "React", just want to see something understandable :)
@@ -216,4 +217,8 @@ I created array and put some valuesa and send by props to list phone directory b
 
 #### 4. Change "Contacts" State Position
 If i need to use "Contacts" Component in different position, "state" will be same caus "state" inside of "Contants" so i moved to "App"
+**Commit:** [Click]()
+
+#### 5. Type "Form" State
+We need to keep value in "state" before Add Contact. So, getting value from input an using "setState" to change value of "state" but do not forget "constructor"
 **Commit:** [Click]()
