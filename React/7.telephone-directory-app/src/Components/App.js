@@ -4,6 +4,11 @@ import Contacts from './Contacts';
 
 class App extends React.Component {
 
+  constructor(props){
+    super(props);
+    this.addContact = this.addContact.bind(this);
+  }
+
   state = {
     contacts: [
         {
@@ -21,10 +26,23 @@ class App extends React.Component {
     ]
   }
 
+  addContact(contact){
+     const { contacts } = this.state;
+     contacts.push(contact);
+
+     this.setState({
+       contacts
+     });
+     
+  }
+
   render() {
     return (
       <div>
-        <Contacts contacts={this.state.contacts} />
+        <Contacts
+          contacts={this.state.contacts}
+          addContact={this.addContact}
+        />
       </div>
     )
   };

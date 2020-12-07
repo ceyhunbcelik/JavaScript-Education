@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import '../css/list.css';
 
 class List extends React.Component{
@@ -8,7 +9,11 @@ class List extends React.Component{
       return (
         <div>
           <div className={'listArea'}>
-            <input name={'filter'} id={'filter'} placeholder={'Name or Phone..'} />
+            <input
+              name={'filter'}
+              id={'filter'}
+              placeholder={'Name or Phone..'}
+            />
 
             <ul className={'list'}>
               {

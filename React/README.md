@@ -202,6 +202,7 @@ If you don't need any state and you will not change anything. Use stateless!
 | 3      | Prepare "Contacts" State                 |
 | 4      | Change "Contacts" State Position         |
 | 5      | Type "Form" State                        |
+| 6      | "addContact" Method                      |
 
 #### 1. Prepare "Contacts" and "List" Components
 I will make phone directory. So, i prepared template of list and wrote some css codes. It's not about "React", just want to see something understandable :)
@@ -221,4 +222,8 @@ If i need to use "Contacts" Component in different position, "state" will be sam
 
 #### 5. Type "Form" State
 We need to keep value in "state" before Add Contact. So, getting value from input an using "setState" to change value of "state" but do not forget "constructor"
+**Commit:** [Click]()
+
+#### 6. "addContact" Method
+My "contacts" array is in App.js so, i have to make "addContant" function in that and my lifesiver is onSubmit. Rules are like "onChange" and details are in my commit.
 **Commit:** [Click]()
