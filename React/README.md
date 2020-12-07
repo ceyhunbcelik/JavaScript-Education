@@ -213,3 +213,7 @@ I did same thing like i did for "List" component.
 #### 3. Prepare "Contacts" State
 I created array and put some valuesa and send by props to list phone directory by state.
 **Commit:** [Click]()
+
+#### 4. Change "Contacts" State Position
+If i need to use "Contacts" Component in different position, "state" will be same caus "state" inside of "Contants" so i moved to "App"
+**Commit:** [Click]()
