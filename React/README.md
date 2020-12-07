@@ -199,6 +199,8 @@ If you don't need any state and you will not change anything. Use stateless!
 | ---    | ---                                      |
 | 1      | Prepare "Contacts" and "List" Components |
 | 2      | Prepare "Form" Component                 |
+| 3      | Prepare "Contacts" State                 |
+| 4      | Change "Contacts" State Position         |
 
 #### 1. Prepare "Contacts" and "List" Components
 I will make phone directory. So, i prepared template of list and wrote some css codes. It's not about "React", just want to see something understandable :)
@@ -206,4 +208,8 @@ I will make phone directory. So, i prepared template of list and wrote some css 
 
 #### 2. Prepare "Form" Component
 I did same thing like i did for "List" component.
+**Commit:** [Click]()
+
+#### 3. Prepare "Contacts" State
+I created array and put some valuesa and send by props to list phone directory by state.
 **Commit:** [Click]()

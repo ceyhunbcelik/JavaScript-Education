@@ -1,8 +1,9 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import '../css/list.css';
 
 class List extends React.Component{
+
     render() {
       return (
         <div>
@@ -10,26 +11,24 @@ class List extends React.Component{
             <input name={'filter'} id={'filter'} placeholder={'Name or Phone..'} />
 
             <ul className={'list'}>
-                <li>
-                  <span className={'name'}>Ceyhun Bahadır Çelik</span>
-                  <span className={'phone'}> +90 111 111 11 11</span>
-                  <span className={'clearfix'}></span>
+              {
+                this.props.contacts.map(contact => 
+                  <li key={contact.phone}>
+                    <span className={'name'}>{contact.name}</span>
+                    <span className={'phone'}>{contact.phone}</span>
+                    <span className={'clearfix'}></span>
                 </li>
-                <li>
-                  <span className={'name'}>Şeyma Başar</span>
-                  <span className={'phone'}> +90 222 222 22 22</span>
-                  <span className={'clearfix'}></span>
-                </li>
-                <li>
-                  <span className={'name'}>Kaan Çelik</span>
-                  <span className={'phone'}> +90 333 333 33 33</span>
-                  <span className={'clearfix'}></span>
-                </li>
+                )
+              }
             </ul>
           </div>
         </div>
       )
     };
+}
+
+List.propTypes = {
+  contacts: PropTypes.array.isRequired
 }
 
 export default List;
