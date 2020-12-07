@@ -6,7 +6,7 @@ class NewsItem extends React.Component{
 
   constructor(props){
     super();
-    console.log(props);
+    //console.log(props);
   }
 
     static propTypes = {

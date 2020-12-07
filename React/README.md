@@ -152,5 +152,5 @@ Constructor is first running method in class. You can do what is necessary insid
 | 1      | Create Event and make Context Bind |
 
 #### 1. Create Event and make Context Bind
--
+Possible to access in fucntions of parent from child by "bind".
 **Commit:** [Click]()
