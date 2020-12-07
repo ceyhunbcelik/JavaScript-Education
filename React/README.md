@@ -7,6 +7,7 @@
 | 3      | Components                    |
 | 4      | Props                         |
 | 5      | Events                        |
+| 6      | State                         |
 
 
 ### 1. ECMAScript6 Need to know
@@ -166,3 +167,13 @@ Possible to access in fucntions of parent from child by "bind".
 
 #### 4. Binding by Arrow Function in JSX
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/48ebe07d65a90407c26232e8f8014e61e1da6cc7)
+
+### 6. State
+
+| Number | Subject                            |
+| ---    | ---                                |
+| 1      | Create State                       |
+
+#### 1. Create State
+- Keeping value by object. Value can be change but "state" always keep that.
+**Commit:** [Click]()
