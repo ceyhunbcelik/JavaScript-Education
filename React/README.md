@@ -8,6 +8,7 @@
 | 4      | Props                         |
 | 5      | Events                        |
 | 6      | State                         |
+| 7      | Telephone Directory App       |
 
 
 ### 1. ECMAScript6 Need to know
@@ -179,12 +180,25 @@ Possible to access in fucntions of parent from child by "bind".
 
 #### 1. Create State
 Keeping value by object. Value can be change but "state" always keep that.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/679299a7b487ad040da848cb8cd0b98837a2ebdf)
 
 #### 2. Using setState
 Change value in object.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/e733c63e9b515d0a345e0d2795a23adc0791e9b5)
 
 #### 3. Counter App
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/03f19515856672cd7e5ccca2da64fbee1bcdfd80)
 
+#### 4. Stateful and Stateless Components
+If you don't need any state and you will not change anything. Use stateless!
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/1457b0306247bc7cae3d1460c82bf70a3db11ee3)
+
+### 7. Telephone Directory App
+
+| Number | Subject                                  |
+| ---    | ---                                      |
+| ---    | Prepare "Contacts" and "List" Components |
+
+#### 1. Prepare "Contacts" and "List" Components
+-
+**Commit:** [Click]()
