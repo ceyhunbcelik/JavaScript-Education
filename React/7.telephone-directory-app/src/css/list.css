@@ -3,13 +3,23 @@
     margin: auto;
 }
 
+form{
+    width: 400px;
+    margin: auto;
+}
+
+button{
+    margin-top: 10px;
+    width: 410px;
+}
+
 input{
     margin-top: 10px;
     height: 25px;
     line-height: 25px;
     width: 180px;
     text-indent: 10px;
-    width: 100%;
+    width: 400px;
 }
 
 ul,li{
