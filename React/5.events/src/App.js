@@ -30,7 +30,7 @@ class App extends React.Component{
       description: 'Description 4'
     });
 
-    
+    console.log(news);
   }
 
   render() {

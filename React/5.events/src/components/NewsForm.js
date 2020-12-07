@@ -2,6 +2,11 @@ import React from 'react';
 
 class NewsForm extends React.Component{
 
+    constructor(props){
+        super(props);
+        this.addButton = this.addButton.bind(this);
+    }
+
     addButton(){
         console.log('Clicked!');
         this.props.addNews();
@@ -10,7 +15,7 @@ class NewsForm extends React.Component{
     render() {
       return (
         <div>
-          <button onClick={this.addButton.bind(this)}>Add</button>
+          <button onClick={this.addButton}>Add</button>
         </div>
       )
     };
