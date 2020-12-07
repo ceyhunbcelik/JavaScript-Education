@@ -1,14 +1,18 @@
 import React from 'react';
 
+import Counter from './Counter';
+
 class App extends React.Component {
 
   /*
-  constructor(props){
+  c onstructor(props){
     super(props);
     this.state = {
       name: 'Ceyhun'
     }
   }*/
+
+  /*
   state = {
     name: 'Ceyhun'
   };
@@ -25,6 +29,15 @@ class App extends React.Component {
         {this.state.name}
         <br />
         <button onClick={this.changeName.bind(this)}>Change the Name</button>
+      </div>
+    )
+  };
+  */
+
+  render() {
+    return (
+      <div>
+        <Counter />
       </div>
     )
   };
