@@ -156,13 +156,13 @@ Constructor is first running method in class. You can do what is necessary insid
 
 #### 1. Create Event and make Context Bind
 Possible to access in fucntions of parent from child by "bind".
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/8df5b6d5059faa40c4b56ee26456d59bfc38d7f2)
 
 #### 2. Binding in Constructor
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/d5a69951772aa7b59d9b6d633866ffb0e8726c38)
 
 #### 3. Binding by Arrow Function
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/1b44126670c0a7d5bcad700bdfb42e395fd15bd0)
 
 #### 4. Binding by Arrow Function in JSX
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/48ebe07d65a90407c26232e8f8014e61e1da6cc7)
