@@ -152,6 +152,7 @@ Constructor is first running method in class. You can do what is necessary insid
 | 1      | Create Event and make Context Bind |
 | 2      | Binding in Constructor             |
 | 3      | Binding by Arrow Function          |
+| 4      | Binding by Arrow Function in JSX   |
 
 #### 1. Create Event and make Context Bind
 Possible to access in fucntions of parent from child by "bind".
@@ -161,4 +162,7 @@ Possible to access in fucntions of parent from child by "bind".
 **Commit:** [Click]()
 
 #### 3. Binding by Arrow Function
+**Commit:** [Click]()
+
+#### 4. Binding by Arrow Function in JSX
 **Commit:** [Click]()
