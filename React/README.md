@@ -9,6 +9,7 @@
 | 5      | Events                        |
 | 6      | State                         |
 | 7      | Telephone Directory App       |
+| 8      | Lifecycle                     |
 
 
 ### 1. ECMAScript6 Need to know
@@ -208,31 +209,40 @@ If you don't need any state and you will not change anything. Use stateless!
 
 #### 1. Prepare "Contacts" and "List" Components
 I will make phone directory. So, i prepared template of list and wrote some css codes. It's not about "React", just want to see something understandable :)
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/81aae88860f9713d22f134ab2df3a3144b89f87f)
 
 #### 2. Prepare "Form" Component
 I did same thing like i did for "List" component.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/5197c3f0a984dd219a0991dad1efccc0a9532b2f)
 
 #### 3. Prepare "Contacts" State
 I created array and put some valuesa and send by props to list phone directory by state.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/9ef0837d9ef1017bb981419e6dbfa42dc36ce797)
 
 #### 4. Change "Contacts" State Position
 If i need to use "Contacts" Component in different position, "state" will be same caus "state" inside of "Contants" so i moved to "App"
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/55596475e7461716d8cafc1ddbd728eb76c3e55d)
 
 #### 5. Type "Form" State
 We need to keep value in "state" before Add Contact. So, getting value from input an using "setState" to change value of "state" but do not forget "constructor"
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/793c4850e3080d61f48824b04416cdafba36da84)
 
 #### 6. "addContact" Method
 My "contacts" array is in App.js so, i have to make "addContant" function in that and my lifesiver is onSubmit. Rules are like "onChange" and details are in my commit.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/8fe92869b6b866019a5d8df23af6104a22f9ba97)
 
 #### 7. Type "filter" Function
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/68d5877b983960d30356e87307e23c6c9f8287a9)
 
 #### 8. Stateless "Contacts" Component
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/143573e40ca455af0f17e8e97f683ab82baa1682)
 
+### 8. Lifecycle
+
+| Number | Subject              |
+| ---    | ---                  |
+| 1      | Constructor          |
+
+#### 1. Constructor
+-
+**Commit:** [Click]()
