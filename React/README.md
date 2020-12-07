@@ -173,7 +173,12 @@ Possible to access in fucntions of parent from child by "bind".
 | Number | Subject                            |
 | ---    | ---                                |
 | 1      | Create State                       |
+| 2      | Using setState                     |
 
 #### 1. Create State
-- Keeping value by object. Value can be change but "state" always keep that.
+Keeping value by object. Value can be change but "state" always keep that.
+**Commit:** [Click]()
+
+#### 2. Using setState
+Change value in object.
 **Commit:** [Click]()

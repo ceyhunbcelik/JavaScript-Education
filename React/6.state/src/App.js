@@ -13,10 +13,18 @@ class App extends React.Component {
     name: 'Ceyhun'
   };
 
+  changeName(){
+    this.setState({
+      name: 'BAHADIR'
+    });
+  };
+
   render() {
     return (
       <div>
         {this.state.name}
+        <br />
+        <button onClick={this.changeName.bind(this)}>Change the Name</button>
       </div>
     )
   };
