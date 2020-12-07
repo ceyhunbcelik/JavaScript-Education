@@ -200,5 +200,5 @@ If you don't need any state and you will not change anything. Use stateless!
 | ---    | Prepare "Contacts" and "List" Components |
 
 #### 1. Prepare "Contacts" and "List" Components
--
+I will make phone directory. So, i prepared template of list and wrote some css codes. It's not about "React", just want to see something understandable :)
 **Commit:** [Click]()
