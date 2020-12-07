@@ -2,13 +2,14 @@ import React from 'react';
 
 class NewsForm extends React.Component{
 
+    /* Facebook recomment contructor instead of arrow function
     constructor(props){
         super(props);
-        this.addButton = this.addButton.bind(this);
-    }
+        //this.addButton = this.addButton.bind(this);
+    }*/
 
-    addButton(){
-        console.log('Clicked!');
+    addButton = () => {
+        //console.log('Clicked!');
         this.props.addNews();
     }
 
