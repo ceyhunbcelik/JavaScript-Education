@@ -1,11 +1,12 @@
 import React from 'react';
 
 import Counter from './Counter';
+import Footer from './Footer';
 
 class App extends React.Component {
 
   /*
-  c onstructor(props){
+  constructor(props){
     super(props);
     this.state = {
       name: 'Ceyhun'
@@ -38,6 +39,7 @@ class App extends React.Component {
     return (
       <div>
         <Counter />
+        <Footer />
       </div>
     )
   };
