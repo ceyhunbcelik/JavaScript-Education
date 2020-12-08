@@ -6,8 +6,9 @@ import {
 
 import './App.css';
 
-const News = () => {
-  return (<h1>News Page</h1>)
+const News = (route) => {
+  const id = route.match.params.id;
+  return (<h1>News Page {id}</h1>)
 }
 
 class App extends React.Component {
@@ -35,7 +36,7 @@ class App extends React.Component {
             }
           />
           <Route
-            path="/news"
+            path="/news/:id"
             exact
             component={News}
           />
