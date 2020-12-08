@@ -10,6 +10,7 @@
 | 6      | State                         |
 | 7      | Telephone Directory App       |
 | 8      | Lifecycle                     |
+| 9      | Fetching                      |
 
 
 ### 1. ECMAScript6 Need to know
@@ -251,31 +252,41 @@ My "contacts" array is in App.js so, i have to make "addContant" function in tha
 
 #### 1. componentWillMount
 Working between constructor and render.
-**Commit:** [Click]()
+**Commit:** [Click](componentWillMount)
 
 #### 2. componentDidMount
 Working after render and if you do anything about inside of render, will be render again.
-**Commit:** [Click]()
+**Commit:** [Click](componentDidMount)
 
 #### 3. componentDidMount Hierarchy
 ![componentDidMountHierarchy](https://raw.githubusercontent.com/ceyhunbcelik/JavaScript-Education/main/readmeImages/componentDidMountHierarchy.png)
 
-**Commit:** [Click]()
+**Commit:** [Click](componentDidMount Hierarchy)
 
 #### 4. componentWillReceiveProps
 ![componentWillReceiveProps](https://raw.githubusercontent.com/ceyhunbcelik/JavaScript-Education/main/readmeImages/componentWillReceiveProps.png)
 
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/5604e0329458c0a0887e272c3819ab9a87f08f31)
 
 #### 5. shouldComponentUpdate
 - NEVER FORGET!!!
 - If you need to check condution before rendering. Use this!
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/680e8a7032307def548de9e28eb5f44c12bb3a74)
 
 #### 6. componentWillUpdate
 Telling us "shouldComponentUpdate" is working. You can do your operation between "shouldComponentUpdate" and "render"
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/6b41a7fc245b7066418bed47f40a6446add2421c)
 
 #### 7. componentDidUpdate
 If you are using "shouldComponentUpdate" in component, "componentDidUpdate" will work after render.
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/e6127fe4d96cc1c4cf52cf97fb5409c31aff2430)
+
+### 9. Fetching
+
+| Number | Subject        |
+| ---    | ---            |
+| 1      | Fetch Function |
+
+#### 1. Fetch Function
+-
 **Commit:** [Click]()
