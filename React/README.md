@@ -309,6 +309,7 @@ If you are using "shouldComponentUpdate" in component, "componentDidUpdate" will
 | 2      | Strict                  |
 | 3      | Component               |
 | 4      | Send parameter to Route |
+| 5      | Link Object             |
 
 #### 1. BrowserRouter and Exact
 Finally we are in Router subject. First of all, we need to install "react-router-dom" and use "BrowserRouter". "Exact" is for perevent to overlap.
@@ -322,6 +323,10 @@ if path is "/url", Router not working for "/url/", have to use "/url"
 **Commit:** [Click]()
 
 #### 4. Send parameter to Route
+**Commit:** [Click]()
+
+#### 5. Link Object
+It's like a '< a href="">'
 **Commit:** [Click]()
 
 

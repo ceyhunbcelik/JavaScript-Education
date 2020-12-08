@@ -1,7 +1,8 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Route
+  Route,
+  Link
 } from 'react-router-dom';
 
 import './App.css';
@@ -16,6 +17,11 @@ class App extends React.Component {
     return (
       <Router>
         <div>
+
+          <Link to="/">Home</Link><br />
+          <Link to="/contact">Contact</Link><br />
+          <Link to="/news/1">News</Link>
+          
           <Route
             path="/"
             exact
