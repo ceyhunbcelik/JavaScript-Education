@@ -287,6 +287,7 @@ If you are using "shouldComponentUpdate" in component, "componentDidUpdate" will
 | ---    | ---            |
 | 1      | Fetch Function |
 | 2      | Loading        |
+| 3      | Axios          |
 
 #### 1. Fetch Function
 -

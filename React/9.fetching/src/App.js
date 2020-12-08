@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+import Axios from 'axios';
+
 class App extends React.Component {
 
   state = {
@@ -26,14 +28,15 @@ class App extends React.Component {
   };
 
   componentDidMount(){
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(data => data.json())
-      .then(users => {
-        this.setState({
-          users,
-          isLoading: false
-        })
+    Axios({
+      method: 'GET',
+      url: 'https://jsonplaceholder.typicode.com/users'
+    }).then(response => {
+      this.setState({
+        users: response.data,
+        isLoading: false
       })
+    });
   }
   
 }
