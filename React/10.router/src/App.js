@@ -24,6 +24,7 @@ class App extends React.Component {
           <Route
             path="/contact"
             exact
+            strict
             render={
               () => {
                 return(<h1>Contact Page</h1>)
