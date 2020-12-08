@@ -1,16 +1,18 @@
 # Contents
 
-| Number | Subject                       |
-| ---    | ---                           |
-| 1      | ECMAScript6 Need to know      |
-| 2      | ECMAScript6 Module System     |
-| 3      | Components                    |
-| 4      | Props                         |
-| 5      | Events                        |
-| 6      | State                         |
-| 7      | Telephone Directory App       |
-| 8      | Lifecycle                     |
-| 9      | Fetching                      |
+| Number | Subject                   |
+| ---    | ---                       |
+| 1      | ECMAScript6 Need to know  |
+| 2      | ECMAScript6 Module System |
+| 3      | Components                |
+| 4      | Props                     |
+| 5      | Events                    |
+| 6      | State                     |
+| 7      | Telephone Directory App   |
+| 8      | Lifecycle                 |
+| 9      | Fetching                  |
+| 10     | Router                    |
+| 11     | Advanced Component        |
 
 
 ### 1. ECMAScript6 Need to know
@@ -290,9 +292,32 @@ If you are using "shouldComponentUpdate" in component, "componentDidUpdate" will
 | 3      | Axios          |
 
 #### 1. Fetch Function
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/b700f7856f0d1dc6623bdb0130a2969c7a16c647)
+
+#### 2. Loading
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/d9269bdf3f51a5ed35d3e9197477b48fef301eee)
+
+#### 3. Axios
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/2d96d35441865d643e2d91176923424f5354eb58)
+
+
+### 10. Router
+
+| Number | Subject                 |
+| ---    | ---                     |
+| 1      | BrowserRouter and Exact |
+
+#### 1. BrowserRouter and Exact
 -
 **Commit:** [Click]()
 
-#### 2. Loading
+
+### 11. Advanced Component
+
+| Number | Subject                 |
+| ---    | ---                     |
+| 1      | Higher Order Components |
+
+#### 1. Higher Order Components
 -
 **Commit:** [Click]()
