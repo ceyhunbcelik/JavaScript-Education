@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Child from './Child';
+
 class App extends React.Component {
 
   state = {
@@ -19,20 +21,25 @@ class App extends React.Component {
   }
 
   render() {
-    console.log('Render Working')
+    console.log('Render Running..')
     return (
-      <div>{this.state.name}</div>
+      <div>
+        {this.state.name}
+        <Child />
+      </div>
     )
   };
 
   componentDidMount(){
     console.log('componentDidMount Running..');
 
+    /*
     setTimeout(() => {
       this.setState({
         name: 'Çelik'
       })
     }, 2000);
+    */
   };
   
 

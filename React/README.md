@@ -239,10 +239,11 @@ My "contacts" array is in App.js so, i have to make "addContant" function in tha
 
 ### 8. Lifecycle
 
-| Number | Subject              |
-| ---    | ---                  |
-| 1      | componentWillMount   |
-| 2      | componentDidMount   |
+| Number | Subject                       |
+| ---    | ---                           |
+| 1      | componentWillMount            |
+| 2      | componentDidMount             |
+| 3      | componentDidMount Hierarchy   |
 
 #### 1. componentWillMount
 Working between constructor and render.
@@ -250,4 +251,8 @@ Working between constructor and render.
 
 #### 2. componentDidMount
 Working after render and if you do anything about inside of render, will be render again.
+**Commit:** [Click]()
+
+#### 3. componentDidMount Hierarchy
+![componentDidMountHierarchy](https://raw.githubusercontent.com/ceyhunbcelik/JavaScript-Education/main/readmeImages/componentDidMountHierarchy.png)
 **Commit:** [Click]()
