@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
-  NavLink
+  NavLink,
+  Redirect
 } from 'react-router-dom';
 
 import './App.css';
@@ -13,7 +14,27 @@ const News = (route) => {
   return (<h1>News Page {id}</h1>)
 }
 
+const Profile = () => {
+  return (<h1>Profile Page: Ceyhun Bahadır ÇELİK</h1>)
+}
+
 class App extends React.Component {
+
+  constructor(){
+    super();
+    this.onClickButton = this.onClickButton.bind(this);
+  }
+
+  state = {
+    loggedIn: false
+  }
+
+  onClickButton(){
+    this.setState(prevState => ({
+      loggedIn: !prevState.loggedIn
+    }))
+  }
+
   render() {
     return (
       <Router>
@@ -25,7 +46,14 @@ class App extends React.Component {
           */}
           <NavLink activeClassName="activelink" exact to="/">Home</NavLink><br />
           <NavLink activeStyle={{color: 'red'}} exact to="/contact">Contact</NavLink><br />
-          <NavLink activeStyle={{color: 'red'}} exact to="/news/1">News</NavLink>
+          <NavLink activeStyle={{color: 'red'}} exact to="/news/1">News</NavLink><br />
+          <NavLink activeStyle={{color: 'red'}} exact to="/profile">Profile</NavLink> <br />
+
+          <input
+            type="button"
+            onClick={this.onClickButton}
+            value={this.state.loggedIn ? 'Logout': 'Login'}
+          />
           
           <Route
             path="/"
@@ -50,6 +78,13 @@ class App extends React.Component {
             path="/news/:id"
             exact
             component={News}
+          />
+          <Route
+            path="/profile"
+            exact
+            render ={() => (
+              this.state.loggedIn ? (<Profile />) : <Redirect to="/" />
+            )}
           />
         </div>
       </Router>
