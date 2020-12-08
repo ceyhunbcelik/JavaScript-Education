@@ -22,6 +22,10 @@ class Form extends React.Component{
         return (nextState.usd % 10) === 0;
     }
 
+    componentWillUpdate(nextProps, nextState){
+        console.log('componentWillUpdate Running..', nextProps, nextState);
+    }
+
     render() {
       console.log('Form Render Running..')
       return (
