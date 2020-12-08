@@ -6,6 +6,9 @@ import {
 
 import './App.css';
 
+const News = () => {
+  return (<h1>News Page</h1>)
+}
 
 class App extends React.Component {
   render() {
@@ -30,6 +33,11 @@ class App extends React.Component {
                 return(<h1>Contact Page</h1>)
               }
             }
+          />
+          <Route
+            path="/news"
+            exact
+            component={News}
           />
         </div>
       </Router>
