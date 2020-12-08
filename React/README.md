@@ -317,42 +317,52 @@ If you are using "shouldComponentUpdate" in component, "componentDidUpdate" will
 
 #### 1. BrowserRouter and Exact
 Finally we are in Router subject. First of all, we need to install "react-router-dom" and use "BrowserRouter". "Exact" is for perevent to overlap.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/f6b7419bb4127fe9e85da690e3726d9cb066eb19)
 
 #### 2. Strict
 if path is "/url", Router not working for "/url/", have to use "/url"
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/527a4c4da4e128c493cf1b59e9ca47cfe125a1dd)
 
 #### 3. Component
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/091dbc016df855316d946d42bd96153e9e6d67cb)
 
 #### 4. Send parameter to Route
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/8640f689bc13635e20b77f63b70696cc3413f26e)
 
 #### 5. Link Object
 It's like a '< a href="">'
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/025d1b0087f06888885bcc511e7bdca6d5ffbfec)
 
 #### 6. NavLink Object
 Between Link and Navlink is you can define style or class to NavLink to work while active
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/59efc6eaf4fd1b0ad101b9c7f0f0a64c423ea873)
 
 #### 7. Redirect Object
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/0119ffd6f95a9a68524433b8cf95731c0e3b4753)
 
 #### 8. Switch Object
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/0b878439e95215eb9191af4d981547e75cfd914b)
 
 #### 9. Import Component
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/2d433c2de3d55f95b53e5a546e88afe1f9cf606b)
 
 
 ### 11. Advanced Component
 
-| Number | Subject                 |
-| ---    | ---                     |
-| 1      | Higher Order Components |
+| Number | Subject                          |
+| ---    | ---                              |
+| 1      | Higher Order Components          |
+| 2      | Reusable Higher Order Components |
+| 3      | Pure Components                  |
 
 #### 1. Higher Order Components
+-
+**Commit:** [Click]()
+
+#### 2. Reusable Higher Order Components
+-
+**Commit:** [Click]()
+
+#### 3. Pure Components
 -
 **Commit:** [Click]()
