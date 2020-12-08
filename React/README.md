@@ -311,7 +311,8 @@ If you are using "shouldComponentUpdate" in component, "componentDidUpdate" will
 | 4      | Send parameter to Route |
 | 5      | Link Object             |
 | 6      | NavLink Object          |
-| 7      | Redirect Object          |
+| 7      | Redirect Object         |
+| 8      | Switch Object           |
 
 #### 1. BrowserRouter and Exact
 Finally we are in Router subject. First of all, we need to install "react-router-dom" and use "BrowserRouter". "Exact" is for perevent to overlap.
@@ -336,6 +337,9 @@ Between Link and Navlink is you can define style or class to NavLink to work whi
 **Commit:** [Click]()
 
 #### 7. Redirect Object
+**Commit:** [Click]()
+
+#### 8. Switch Object
 **Commit:** [Click]()
 
 
