@@ -2,7 +2,8 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  NavLink
 } from 'react-router-dom';
 
 import './App.css';
@@ -17,10 +18,14 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-
+          {/*
           <Link to="/">Home</Link><br />
           <Link to="/contact">Contact</Link><br />
           <Link to="/news/1">News</Link>
+          */}
+          <NavLink activeClassName="activelink" exact to="/">Home</NavLink><br />
+          <NavLink activeStyle={{color: 'red'}} exact to="/contact">Contact</NavLink><br />
+          <NavLink activeStyle={{color: 'red'}} exact to="/news/1">News</NavLink>
           
           <Route
             path="/"
