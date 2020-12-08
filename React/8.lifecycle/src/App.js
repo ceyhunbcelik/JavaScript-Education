@@ -5,19 +5,23 @@ import Child from './Child';
 class App extends React.Component {
 
   state = {
-    name: 'Ceyhun' // First
+    name: 'Ceyhun'
   }
   constructor(){
     super();
     console.log('constructor Running..');
 
-    this.state = {
-      name: 'Bahadır' // Second
-    }
+    this.changeName = this.changeName.bind(this);
   }
 
   componentWillMount(){
     console.log('componentWillMount Running..')
+  }
+
+  changeName(){
+    this.setState({
+      name: 'Kaan'
+    })
   }
 
   render() {
@@ -25,7 +29,8 @@ class App extends React.Component {
     return (
       <div>
         {this.state.name}
-        <Child />
+        <Child name={this.state.name} />
+        <button onClick={this.changeName}>Change Name</button>
       </div>
     )
   };

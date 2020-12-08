@@ -244,6 +244,7 @@ My "contacts" array is in App.js so, i have to make "addContant" function in tha
 | 1      | componentWillMount            |
 | 2      | componentDidMount             |
 | 3      | componentDidMount Hierarchy   |
+| 4      | componentWillReceiveProps     |
 
 #### 1. componentWillMount
 Working between constructor and render.
@@ -255,5 +256,10 @@ Working after render and if you do anything about inside of render, will be rend
 
 #### 3. componentDidMount Hierarchy
 ![componentDidMountHierarchy](https://raw.githubusercontent.com/ceyhunbcelik/JavaScript-Education/main/readmeImages/componentDidMountHierarchy.png)
+
+**Commit:** [Click]()
+
+#### 4. componentWillReceiveProps
+![componentWillReceiveProps](https://raw.githubusercontent.com/ceyhunbcelik/JavaScript-Education/main/readmeImages/componentWillReceiveProps.png)
 
 **Commit:** [Click]()

@@ -11,6 +11,10 @@ class Child extends React.Component{
         console.log('Child componentWillMount Running..')
     }
 
+    componentWillReceiveProps(nextProps){
+        console.log('componentWillReceiveProps Running..', nextProps);
+    }
+
     render() {
       console.log('Child Render Running..')
       return (
