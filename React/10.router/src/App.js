@@ -10,6 +10,8 @@ import {
 
 import './App.css';
 
+import Blog from './Components/Blog';
+
 const News = (route) => {
   const id = route.match.params.id;
   return (<h1>News Page {id}</h1>)
@@ -21,8 +23,8 @@ const Profile = () => {
 
 const Error = () => {
   return (<h1>404</h1>)
-
 }
+
 
 class App extends React.Component {
 
@@ -53,6 +55,7 @@ class App extends React.Component {
           <NavLink activeClassName="activelink" exact to="/">Home</NavLink><br />
           <NavLink activeStyle={{color: 'red'}} exact to="/contact">Contact</NavLink><br />
           <NavLink activeStyle={{color: 'red'}} exact to="/news/1">News</NavLink><br />
+          <NavLink activeStyle={{color: 'red'}} exact to="/blog">Blog</NavLink><br />
           <NavLink activeStyle={{color: 'red'}} exact to="/profile">Profile</NavLink> <br />
 
           <input
@@ -84,6 +87,11 @@ class App extends React.Component {
               path="/news/:id"
               exact
               component={News}
+            />
+            <Route
+              path="/blog"
+              exact
+              component={Blog}
             />
             <Route
               path="/profile"
