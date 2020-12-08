@@ -1,9 +1,11 @@
 import React from 'react';
 
-import Child from './Child';
+//import Child from './Child';
+import Form from './Form';
 
 class App extends React.Component {
 
+    /*
   state = {
     name: 'Ceyhun'
   }
@@ -38,15 +40,23 @@ class App extends React.Component {
   componentDidMount(){
     console.log('componentDidMount Running..');
 
-    /*
+    ----
     setTimeout(() => {
       this.setState({
         name: 'Çelik'
       })
     }, 2000);
-    */
+    ----
   };
-  
+  */
+
+  render() {
+    return (
+      <div>
+        <Form />
+      </div>
+    )
+  };
 
 }
 

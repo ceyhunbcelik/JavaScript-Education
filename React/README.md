@@ -245,6 +245,7 @@ My "contacts" array is in App.js so, i have to make "addContant" function in tha
 | 2      | componentDidMount             |
 | 3      | componentDidMount Hierarchy   |
 | 4      | componentWillReceiveProps     |
+| 5      | shouldComponentUpdate         |
 
 #### 1. componentWillMount
 Working between constructor and render.
@@ -262,4 +263,9 @@ Working after render and if you do anything about inside of render, will be rend
 #### 4. componentWillReceiveProps
 ![componentWillReceiveProps](https://raw.githubusercontent.com/ceyhunbcelik/JavaScript-Education/main/readmeImages/componentWillReceiveProps.png)
 
+**Commit:** [Click]()
+
+#### 5. shouldComponentUpdate
+- NEVER FORGET!!!
+- If you need to check condution before rendering. Use this!
 **Commit:** [Click]()
