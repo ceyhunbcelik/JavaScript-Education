@@ -242,7 +242,12 @@ My "contacts" array is in App.js so, i have to make "addContant" function in tha
 | Number | Subject              |
 | ---    | ---                  |
 | 1      | componentWillMount   |
+| 2      | componentDidMount   |
 
 #### 1. componentWillMount
 Working between constructor and render.
+**Commit:** [Click]()
+
+#### 2. componentDidMount
+Working after render and if you do anything about inside of render, will be render again.
 **Commit:** [Click]()
