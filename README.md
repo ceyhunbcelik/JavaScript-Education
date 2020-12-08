@@ -6,7 +6,7 @@
 
 # React
 **Course(Turkish):** [Click](https://www.udemy.com/course/react-redux-egitimi/)
-![react](https://hackernoon.com/images/z2xg2bpo.jpg)
+![react](https://raw.githubusercontent.com/ceyhunbcelik/JavaScript-Education/main/readmeImages/reactjs.jpg)
 
 - About React ❄️
 
