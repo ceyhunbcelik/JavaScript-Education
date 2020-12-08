@@ -4,7 +4,8 @@ import './App.css';
 class App extends React.Component {
 
   state = {
-    users: []
+    users: [],
+    isLoading: true
   }
 
   render() {
@@ -12,12 +13,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Users</h1>
+        {isLoading ? 'Loading..' : ''}
         {
-          this.state.users.map(user =>
+          !isLoading ? this.state.users.map(user =>
             <div key={user.id}>
               {user.name} - @{user.username}
             </div>
-          )
+          ) : null
         }
       </div>
     )
@@ -28,7 +30,8 @@ class App extends React.Component {
       .then(data => data.json())
       .then(users => {
         this.setState({
-          users
+          users,
+          isLoading: false
         })
       })
   }

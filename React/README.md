@@ -286,7 +286,12 @@ If you are using "shouldComponentUpdate" in component, "componentDidUpdate" will
 | Number | Subject        |
 | ---    | ---            |
 | 1      | Fetch Function |
+| 2      | Loading        |
 
 #### 1. Fetch Function
+-
+**Commit:** [Click]()
+
+#### 2. Loading
 -
 **Commit:** [Click]()
