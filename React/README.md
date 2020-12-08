@@ -308,7 +308,7 @@ If you are using "shouldComponentUpdate" in component, "componentDidUpdate" will
 | 1      | BrowserRouter and Exact |
 
 #### 1. BrowserRouter and Exact
--
+Finally we are in Router subject. First of all, we need to install "react-router-dom" and use "BrowserRouter". "Exact" is for perevent to overlap.
 **Commit:** [Click]()
 
 
