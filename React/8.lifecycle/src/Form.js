@@ -38,6 +38,10 @@ class Form extends React.Component{
         </div>
       )
     };
+
+    componentDidUpdate(nextProps, nextState){
+        console.log('componentDidUpdate Running..', nextProps, nextState);
+    }
 }
 
 export default Form;
