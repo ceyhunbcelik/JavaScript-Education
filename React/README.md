@@ -228,7 +228,7 @@ We need to keep value in "state" before Add Contact. So, getting value from inpu
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/793c4850e3080d61f48824b04416cdafba36da84)
 
 #### 6. "addContact" Method
-My "contacts" array is in App.js so, i have to make "addContant" function in that and my lifesiver is onSubmit. Rules are like "onChange" and details are in my commit.
+My "contacts" array is in App.js so, i have to make "addContant" function in that and my lifesaver is onSubmit. Rules are like "onChange" and details are in my commit.
 **Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/8fe92869b6b866019a5d8df23af6104a22f9ba97)
 
 #### 7. Type "filter" Function
@@ -241,8 +241,8 @@ My "contacts" array is in App.js so, i have to make "addContant" function in tha
 
 | Number | Subject              |
 | ---    | ---                  |
-| 1      | Constructor          |
+| 1      | componentWillMount   |
 
-#### 1. Constructor
--
+#### 1. componentWillMount
+Working between constructor and render.
 **Commit:** [Click]()
