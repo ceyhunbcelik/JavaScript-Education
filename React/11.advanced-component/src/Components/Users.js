@@ -2,14 +2,14 @@ import React from 'react';
 
 import LoaderHOC from './LoaderHOC';
 
-class Posts extends React.Component{
+class Users extends React.Component{
     render() {
       return (
         <div>
             {
-                this.props.posts.map(post =>
-                    <div key={post.id}>
-                        { post.title }
+                this.props.users.map(user =>
+                    <div key={user.id}>
+                        { user.name }
                     </div>
                 )
             }
@@ -19,4 +19,4 @@ class Posts extends React.Component{
     };
 }
 
-export default LoaderHOC(Posts, 'posts');
+export default LoaderHOC(Users, 'users');

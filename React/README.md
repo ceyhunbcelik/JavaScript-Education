@@ -360,7 +360,7 @@ Normally, if you want to show "Loading.." to user, using boolean as "isLoading" 
 **Commit:** [Click]()
 
 #### 2. Reusable Higher Order Components
--
+I converted static 'LoaderHOC' to dynamic 'LoaderHOC'
 **Commit:** [Click]()
 
 #### 3. Pure Components
