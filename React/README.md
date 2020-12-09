@@ -357,12 +357,12 @@ Between Link and Navlink is you can define style or class to NavLink to work whi
 
 #### 1. Higher Order Components
 Normally, if you want to show "Loading.." to user, using boolean as "isLoading" in state. In this style, we don't need more to use boolean in state.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/a5e73069d523fb53c16db908ac8d1568bb7cd66d)
 
 #### 2. Reusable Higher Order Components
 I converted static 'LoaderHOC' to dynamic 'LoaderHOC'
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/d22f2d3269f8a144e3fc76a00218a8c4c85ec00a)
 
 #### 3. Pure Components
 It is magic! If you don't want render your not changed component, use Pure but not every component.
-**Commit:** [Click]()
+**Commit:** [Click](https://github.com/ceyhunbcelik/JavaScript-Education/commit/3e9bd23b11b5b335f167bf6241013d4d651f85e4)
