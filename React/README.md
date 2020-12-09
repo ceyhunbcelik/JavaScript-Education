@@ -356,7 +356,7 @@ Between Link and Navlink is you can define style or class to NavLink to work whi
 | 3      | Pure Components                  |
 
 #### 1. Higher Order Components
--
+Normally, if you want to show "Loading.." to user, using boolean as "isLoading" in state. In this style, we don't need more to use boolean in state.
 **Commit:** [Click]()
 
 #### 2. Reusable Higher Order Components
