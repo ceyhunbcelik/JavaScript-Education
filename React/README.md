@@ -364,5 +364,5 @@ I converted static 'LoaderHOC' to dynamic 'LoaderHOC'
 **Commit:** [Click]()
 
 #### 3. Pure Components
--
+It is magic! If you don't want render your not changed component, use Pure but not every component.
 **Commit:** [Click]()

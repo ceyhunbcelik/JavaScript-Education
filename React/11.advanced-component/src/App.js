@@ -6,6 +6,7 @@ import Users from './Components/Users';
 
 import './App.css';
 
+/*
 class App extends React.Component {
 
   state = {
@@ -43,6 +44,37 @@ class App extends React.Component {
     });
   }
 
+}
+*/
+
+import FirstNumber from './Components/FirstNumber';
+import SecondNumber from './Components/SecondNumber';
+
+// Pure Component
+class App extends React.Component{
+
+  state = {
+    firstNumber: Math.random(),
+    secondNumber: Math.random()
+  }
+
+  render() {
+    return (
+      <div>
+        <FirstNumber firstNumber={this.state.firstNumber} />
+        <hr />
+        <SecondNumber secondNumber={this.state.secondNumber} />
+      </div>
+    )
+  };
+
+  componentDidMount(){
+    setInterval(() => {
+      this.setState({
+        firstNumber: Math.random()
+      })
+    }, 2000)
+  }
 }
 
 export default App;
